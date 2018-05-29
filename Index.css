@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Italiana');
+* {
+    font-family: 'Italiana', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #1e1b22;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+background-image: url("img/photo.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100%;
+
+display:flex; /* or inline-flex */
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+header h1 {
+    margin:0%;
+    background-color: rgba(255,255,255,0.7);
+    border: solid 4px rgb(255,255,255);
+    padding: 50px 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    animation: enter 2s ease-in-out;
+     
+}
+
+
+header h1:hover {
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,0);
+ }
+
+ header #social{
+    display:flex;
+    flex-direction: row;
+ }
+
+section{
+    min-height: 100%; 
+    padding: 20px;
+    display:flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+
+
+}
+section a {
+    width: 23%
+
+}
+
+article{
+    width: 100%;
+    margin: 20px;
+    padding : 15px;
+    background-color: rgb(50, 50, 50);
+    color: rgb(210, 210, 210);
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
+    border: white solid 2px;
+    background-color: rgba(255,255,255,0.7);
+
+}
+
+#article-1 {
+    background-image: url("img/image.jpg");
+}
+
+#article-2 {
+    background-image: url("img/texture.jpg");
+}
+
+#article-3 {
+    background-image: url("img/image5.jpg");
+}
+
+#article-4 {
+    background-image: url("img/image3.jpg");
+}
+
+/** RSPONSIVE**/
+/*Mobile**/
+@media screen and (max-width:600px) {
+section {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+}
+section a {
+    width:80%;
+
+}
+}
+/*Tablet*/
+@media only screen and (min-width:600px) and (max-width: 900px) {
+    section a { width: 40%;}
+}
+
+/** Animation **/
+@keyframes enter {
+    from { opacity: 0;
+   transform: translateY(100px);}
+    to { opacity: 1;
+    transform: translateY(0px);}
+    
+
+}
