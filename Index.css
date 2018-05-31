@@ -31,7 +31,7 @@ header h1 {
     margin:0%;
     background-color: rgba(255,255,255,0.7);
     border: solid 4px rgb(255,255,255);
-    padding: 50px 30px;
+    padding: 60px 50px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     animation: enter 2s ease-in-out;
@@ -67,12 +67,14 @@ section a {
 }
 
 article{
-    width: 100%;
-    margin: 20px;
-    padding : 15px;
+    width: 25%;
+    height: 50px;
+    margin: 50px;
+    padding : 100px;
     background-color: rgb(50, 50, 50);
-    color: rgb(210, 210, 210);
+    color: rgb(50, 50, 50);
     text-align: center;
+
     
 }
 
@@ -82,21 +84,28 @@ h2{
     background-color: rgba(255,255,255,0.7);
 
 }
+#article {
+    background-image: url("img/amsterdam.jpg");
+}
 
 #article-1 {
-    background-image: url("img/image.jpg");
+    background-image: url("img/barcelone.jpg");
 }
 
 #article-2 {
-    background-image: url("img/texture.jpg");
+    background-image: url("img/rome.jpg");
 }
 
 #article-3 {
-    background-image: url("img/image5.jpg");
+    background-image: url("img/paris.jpg");
 }
 
 #article-4 {
-    background-image: url("img/image3.jpg");
+    background-image: url("img/bali.jpg");
+}
+
+#article-6 {
+    background-image: url("img/nyc.jpg");
 }
 
 /** RSPONSIVE**/
