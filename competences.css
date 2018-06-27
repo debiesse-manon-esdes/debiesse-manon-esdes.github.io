@@ -1,11 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css?family=Italiana');
 * {
     font-family: 'Italiana', sans-serif;
     font-size: 20px;
 }
-
-
 
 html, body {
     height: 100%;
@@ -36,5 +33,4 @@ header a {
 
 header a:hover {
     background-color: rgb(50, 50, 50);
-    
 }
