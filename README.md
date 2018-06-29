@@ -1,3 +1,3 @@
 # debiesse-manon-esdes.github.io
-Welcome in my world
-My super website
+
+Projet : ce site web est un blog sur les voyages et mon CV s'y trouve également  
