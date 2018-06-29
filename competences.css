@@ -34,3 +34,21 @@ header a {
 header a:hover {
     background-color: rgb(50, 50, 50);
 }
+
+/** RSPONSIVE**/
+/*Mobile**/
+@media screen and (max-width:600px) {
+    section {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        
+    }
+    section a {
+        width:80%;
+    
+    }
+    }
+    /*Tablet*/
+    @media only screen and (min-width:600px) and (max-width: 900px) {
+        section a { width: 40%;}
+    }

@@ -113,3 +113,21 @@ color: white;
 p {
     line-height: 30px;
 }
+
+/** RSPONSIVE**/
+/*Mobile**/
+@media screen and (max-width:600px) {
+    section {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        
+    }
+    section a {
+        width:80%;
+    
+    }
+    }
+    /*Tablet*/
+    @media only screen and (min-width:600px) and (max-width: 900px) {
+        section a { width: 40%;}
+    }
