@@ -11,7 +11,7 @@ html, body {
 
 body {
     background-color: white;
-    color: white;
+    color: black;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -102,7 +102,6 @@ footer {
 
 h1{
     font-size: 25px;
-    font-style: bold;
 }
 
 h2{
